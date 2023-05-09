@@ -1,14 +1,14 @@
 <template>
-    <test_component />
+    <navbar msg="Test" />
 </template>
 
 <script lang="ts">
-import test_component from './src/test_component.vue'
+import navbar from './src/navbar.vue'
 
 export default {
     name: 'App',
     components: {
-        test_component,
+        navbar,
     }
 }
 </script>
