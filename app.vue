@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <test_component />
-    </div>
+    <test_component />
 </template>
 
 <script lang="ts">
