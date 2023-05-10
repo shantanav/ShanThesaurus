@@ -12,7 +12,6 @@
 
 <script lang="ts">
 export default { 
-    name: 'navbar', 
     props: ['msg'],
     data() {
         return { count: 0, }
