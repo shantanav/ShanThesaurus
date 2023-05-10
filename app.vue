@@ -1,7 +1,9 @@
 <template>
-    <navbar msg="Test" />
+    <navbar msg="Test" /><br>
+    <p style="margin-top: 3em">{{ nameCall?.msg }}</p>
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({ title: "ShanThesaurus", })
+let { data: nameCall } = await useFetch("/api/hello/Shantanav")
 </script>
